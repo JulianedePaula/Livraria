@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T18:39:31.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="67R6qujl3cr6C3UbcvRb" type="github"><diagram name="Página-1" id="v_QOuVQLIJLDduII1H4_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-10T19:25:53.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="yy_zGhVdqwQpoiQZ-I-v" version="21.0.6" type="github">
+  <diagram name="Página-1" id="v_QOuVQLIJLDduII1H4_">
+    <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-2" value="Desafio de catalogar os livros da Maria." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.446;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="4qt4u9O57WCLwVKzpnEG-3" target="4qt4u9O57WCLwVKzpnEG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-3" value="Livraria" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="4qt4u9O57WCLwVKzpnEG-4" target="4qt4u9O57WCLwVKzpnEG-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-4" value="CADASTRO&lt;br&gt;Requisições necessárias:&lt;br&gt;&quot;Titulo&quot;:&quot;&quot;&lt;br&gt;&quot;Autor&quot;:&quot;&quot;&lt;br&gt;&quot;Capa&quot;.imagem" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-13" value="Postman&lt;br style=&quot;font-size: 16px;&quot;&gt;Mongo.DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="665" y="190" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-18" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Retornos:&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-family: Helvetica;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;201 - &quot;Livro catalogado&quot;.&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;200 - &quot;Ajuste realizado&quot;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;204 - &quot;Livro excluído&amp;nbsp;da base&quot;.&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;400 - &quot;Faltou preencher algum dado&quot;.&lt;br&gt;&lt;/span&gt;404 - &quot;URL invalida&quot;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="620" y="330" width="200" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="4qt4u9O57WCLwVKzpnEG-18" target="4qt4u9O57WCLwVKzpnEG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-22" value="INCLUIR (ALTERAÇÃO - EXCLUSÃO - BUSCA)" style="whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="410" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;VERBOS NECESSÁRIOS:&lt;br style=&quot;font-size: 10px;&quot;&gt;POST(Cadastrar)&amp;nbsp;&lt;br style=&quot;font-size: 10px;&quot;&gt;GET (Busca)&lt;br&gt;&amp;nbsp;PUT (Atualizar)&lt;br&gt;DELETE (Excluir)&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Verdana;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="640" y="20" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4qt4u9O57WCLwVKzpnEG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="4qt4u9O57WCLwVKzpnEG-13" target="4qt4u9O57WCLwVKzpnEG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
