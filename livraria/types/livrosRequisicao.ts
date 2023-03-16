@@ -1,5 +1,5 @@
 export type livrosRequisicao = {
-    titulo : string,
-    autor : string,
+    titulo : String,
+    autor : String,
     //capa : ImageData
 }
