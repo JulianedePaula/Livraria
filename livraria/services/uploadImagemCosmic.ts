@@ -14,17 +14,15 @@ const bucketLivros = Cosmic.bucket ({
 
 
 const storage = multer.memoryStorage()
-const updload = multer({storage: storage})
+const updloadMulter = multer({storage: storage})
 
 const uploadImagemCosmic = async (req: any) => {
     if(req?.file?.originalname) {
         const media_object = {
             originalname: req.file.originalname,
-            buffer: req.file.buffer
-        }
-        if(req.url && req.url.includes('livros')){
-            return await bucketLivros.addMedia({media: media_object})
-        }
+            buffer: req.file.buffer}
+        return await bucketLivros.addMedia({media: media_object})
     }
 }
-export {updload, uploadImagemCosmic}
+
+export {updloadMulter, uploadImagemCosmic}

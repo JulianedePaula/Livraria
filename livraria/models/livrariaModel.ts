@@ -7,6 +7,6 @@ const livrariaSchema = new Schema ({
 })
 
 export const livrariaModel = (
-    mongoose.models.livros ||
-    mongoose.model('livros', livrariaSchema)
+    mongoose.models.testelivraria ||
+    mongoose.model('testelivraria', livrariaSchema)
 )
