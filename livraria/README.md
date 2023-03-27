@@ -7,11 +7,11 @@
 </h4>
 
 <h2 align="center"> Tecnologia utilizada </h2>
-<li>Nodejs 
-Mongoose
-Multer</li>
+<li>Nodejs</li>
+<li>Mongoose</li>
+<li>Multer</li>
 
 # Autores
 
-| [<img src="https://avatars.githubusercontent.com/u/112638979?s=96&v=4><br><sub>Juliane B de Paula</sub>](https://github.com/JulianedePaula)
+(https://github.com/JulianedePaula)
 
